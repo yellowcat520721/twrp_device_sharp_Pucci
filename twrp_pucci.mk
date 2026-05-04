@@ -26,11 +26,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/sharp/Pucci/device.mk)
+$(call inherit-product, device/sharp/pucci/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Pucci
-PRODUCT_NAME := twrp_Pucci
-PRODUCT_BRAND := SHARP
-PRODUCT_MODEL := Sharp Aquos R2 compact
-PRODUCT_MANUFACTURER := SHARP
+PRODUCT_DEVICE := pucci
+PRODUCT_NAME := twrp_pucci
+PRODUCT_BRAND := sharp
+PRODUCT_MODEL := sharp aquos r2 compact
+PRODUCT_MANUFACTURER := sharp

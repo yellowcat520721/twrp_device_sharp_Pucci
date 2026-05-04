@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_Pucci.mk
+    $(LOCAL_DIR)/twrp_pucci.mk
 
-COMMON_LUNCH_CHOICES := twrp_Pucci-eng
+COMMON_LUNCH_CHOICES := twrp_pucci-eng
